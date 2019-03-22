@@ -86,7 +86,10 @@ public class CircleImageView extends View {
         matrix.setScale(mScale, mScale);
         bitmapShader.setLocalMatrix(matrix);
         mPaint.setShader(bitmapShader);
-        canvas.drawCircle(radius, radius, radius - q_cirlce_width, mPaint);
+        canvas.drawCircle(radius,
+                radius,
+                q_show_border ? radius - q_cirlce_width : radius,
+                mPaint);
     }
 
 
