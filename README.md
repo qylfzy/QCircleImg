@@ -1,7 +1,7 @@
 # QCircleImg
 自定义圆形图片
 
-（https://github.com/qylfzy/QCircleImg/image/1.png）
+（https://github.com/qylfzy/QCircleImg/raw/master/image/1.png）
 
 ## 准备工作
 
